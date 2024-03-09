@@ -124,8 +124,8 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <tr key={index}>
 <th scope="row">{index + 1}</th>
 <td>{item[0]}</td>
-{/*
-<td>{item[1]}</td>*/}
+
+<td>{item[1]}</td>
 <td>
 <button className="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => Edited(index)}>Edit</button>
 </td>
