@@ -96,7 +96,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 
 <div className="mb-3 mx-2">
 <label htmlFor="desc" className="form-label">
-Set Todos
+Set Your Goals
 </label>
 <textarea className="form-control" id="desc" rows="3" value={Desc} onChange={handleDescChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}></textarea>
@@ -114,7 +114,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <th scope="col">SNO</th>
 {/*
 <th scope="col">Title</th>*/}
-<th scope="col">Description</th>
+<th scope="col">Goals</th>
 <th scope="col">Edit</th>
 <th scope="col">Delete</th>
 </tr>
