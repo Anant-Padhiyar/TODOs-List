@@ -82,6 +82,8 @@ update();
 TODOs List
 </h2>
 
+        {/* <Link href={`./ProductEdit?Modal=${product.Modal}&Price=${product.Price}`}> 
+
 <div className="mb-2 mx-2">
 <label htmlFor="title" className="form-label">
 TODO Title
@@ -89,10 +91,11 @@ TODO Title
 <input type="text" className="form-control" id="title" value={Title} onChange={handleTitleChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}/>
 </div>
+*/}
 
 <div className="mb-3 mx-2">
 <label htmlFor="desc" className="form-label">
-TODO Description
+Set Todos
 </label>
 <textarea className="form-control" id="desc" rows="3" value={Desc} onChange={handleDescChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}></textarea>
