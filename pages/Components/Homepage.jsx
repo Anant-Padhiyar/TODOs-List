@@ -91,6 +91,7 @@ TODO Title
 <input type="text" className="form-control" id="title" value={Title} onChange={handleTitleChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}/>
 </div>
+
 */}
 
 <div className="mb-3 mx-2">
@@ -111,7 +112,8 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <thead>
 <tr>
 <th scope="col">SNO</th>
-<th scope="col">Title</th>
+{/*
+<th scope="col">Title</th>*/}
 <th scope="col">Description</th>
 <th scope="col">Edit</th>
 <th scope="col">Delete</th>
@@ -122,7 +124,8 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <tr key={index}>
 <th scope="row">{index + 1}</th>
 <td>{item[0]}</td>
-<td>{item[1]}</td>
+{/*
+<td>{item[1]}</td>*/}
 <td>
 <button className="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={() => Edited(index)}>Edit</button>
 </td>
