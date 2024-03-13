@@ -154,7 +154,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <input type="text" className="form-control" id="EditT" aria-describedby="emailHelp" value={Title} onChange={handleTitleChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}/>
 </div>
-/*}
+*/}
 
 <div className="mb-3">
 <label htmlFor="EditD" className="form-label">TODO Description</label>
