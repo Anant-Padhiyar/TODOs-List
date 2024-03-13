@@ -143,7 +143,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <div className="modal-content">
 
 <div className="modal-header">
-<h1 className="modal-title fs-5" id="exampleModalLabel">Edit Goal</h1>
+<h1 className="modal-title fs-5" id="exampleModalLabel">Edit Goal Here</h1>
 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 </div>
 <div className="modal-body">
@@ -157,7 +157,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 */}
 
 <div className="mb-3">
-<label htmlFor="EditD" className="form-label">Edit Goal here</label>
+<label htmlFor="EditD" className="form-label"></label>
 <textarea className="form-control" id="EditD" rows="3" value={Desc} onChange={handleDescChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}></textarea>
 </div>
