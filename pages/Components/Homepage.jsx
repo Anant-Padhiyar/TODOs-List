@@ -79,7 +79,7 @@ update();
   return (
 <div className="container">
 <h2 className="text-center mt-3" style={{ color: mode === 'light' ? 'black' : 'white' }}>
-TODOs List
+Todos List
 </h2>
 
         {/* <Link href={`./ProductEdit?Modal=${product.Modal}&Price=${product.Price}`}> 
@@ -96,7 +96,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 
 <div className="mb-3 mx-2">
 <label htmlFor="desc" className="form-label">
-Set Your Goals
+Set Your Goals here
 </label>
 <textarea className="form-control" id="desc" rows="3" value={Desc} onChange={handleDescChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}></textarea>
