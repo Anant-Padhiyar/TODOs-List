@@ -111,10 +111,10 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <table className={`table table-sm custom-table ${mode === 'light' ? 'light-mode' : 'dark-mode'}`}>
 <thead>
 <tr>
-<th scope="col">SNO</th>
+<th scope="col">SNo</th>
 {/*
 <th scope="col">Title</th>*/}
-<th scope="col">Goals</th>
+<th scope="col">Goal</th>
 <th scope="col">Edit</th>
 <th scope="col">Delete</th>
 </tr>
