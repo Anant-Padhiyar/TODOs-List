@@ -114,7 +114,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 <th scope="col">SNo</th>
 {/*
 <th scope="col">Title</th>*/}
-<th scope="col">Goal</th>
+<th scope="col">Goals</th>
 <th scope="col">Edit</th>
 <th scope="col">Delete</th>
 </tr>
