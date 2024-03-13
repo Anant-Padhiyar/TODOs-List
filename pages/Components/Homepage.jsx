@@ -157,7 +157,7 @@ style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 
 */}
 
 <div className="mb-3">
-<label htmlFor="EditD" className="form-label">TODO Description</label>
+<label htmlFor="EditD" className="form-label">Edit Goal</label>
 <textarea className="form-control" id="EditD" rows="3" value={Desc} onChange={handleDescChange}
 style={{ backgroundColor: mode === 'light' ? 'white' : 'black', color: mode === 'light' ? 'black' : 'white' }}></textarea>
 </div>
