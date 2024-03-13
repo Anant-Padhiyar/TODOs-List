@@ -26,7 +26,7 @@ if(Title!=='' || Desc !==''){
     update();
 }
 else{
-  alert('Title And Description are Empty')
+  alert('Set Your Goal')
 }
   };
 
